@@ -52,6 +52,7 @@ nav {
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .nav--footer div p {
@@ -64,6 +65,18 @@ nav ul li a {
     text-decoration: none;
 }
 
+.hero-home {
+    background-image: url(/images/droughtmb2.jpg);
+}
+
+.hero-home {
+    background-image: url(/images/droughtmb2.jpg);
+}
+
+.hero-home {
+    background-image: url(/images/droughtmb2.jpg);
+}
+
 .hero {
     background-image: url(/images/droughtmb2.jpg);
     width: 100%;
@@ -74,22 +87,30 @@ nav ul li a {
     color: white;
 }
 
-.hero h2 {
+.hero h1 {
     background-color: rgba(0, 0, 0, 0.468);
     padding: 10px;
     font-size: 3rem;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 .darktext {
     background-color: #133B7D;
     color: white;
+    padding: 1%;
 }
 .lighttext {
     background-color: #08BEB9;
     color: white;
+    margin: 1%;
+    border-radius: 12px;
+    padding: 2%;
 }
 .text,.image{
-    width: 50%;
+    width: 48%;
 }
 article{
     display: flex;
@@ -97,4 +118,36 @@ article{
 }
 .img{
     width: 50%;
+    border-radius: 12px;
+}
+
+h2, 
+p {
+    margin: 0;
+}
+
+
+
+.image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-bottom {
+    margin-top: 5px;
+}
+
+.subnav {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #219EDD;
+    color: white;
+    border: none;
+    padding: 2%;
+    border-radius: 12px;
+    font-size: 1.5rem;
 }
