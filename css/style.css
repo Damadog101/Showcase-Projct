@@ -62,13 +62,18 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url(/images/droughtmb2.jpg);
     width: 100%;
     height: 75vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.hero-home {
+    background-image: url(/images/droughtmb2.jpg);
+}
+.hero-gen {
+    background-image: url(/movethistomain/herogenmb2.jpg);
 }
 .hero h1 {
     background-color: rgba(0, 0, 0, 0.5);
