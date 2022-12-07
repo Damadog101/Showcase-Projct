@@ -65,12 +65,16 @@ nav ul li a {
     text-decoration: none;
 }
 
-.hero-home {
-    background-image: url(/images/droughtmb2.jpg);
+.hero-indoor {
+    background-image: url(/images/IndoorHero.jpg);
 }
 
-.hero-home {
-    background-image: url(/images/droughtmb2.jpg);
+.hero-outdoor {
+    background-image: url(/images/OutdoorHero.jpg);
+}
+
+.hero-general {
+    background-image: url(/images/GeneralHero.jpg);
 }
 
 .hero-home {
@@ -78,7 +82,6 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url(/images/droughtmb2.jpg);
     width: 100%;
     height: 75vh;
     display: flex;
@@ -150,4 +153,19 @@ button {
     padding: 2%;
     border-radius: 12px;
     font-size: 1.5rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    text-decoration: underline;
+    color:turquoise;
+}
+
+li p {
+    padding: 5px;
+    text-decoration: underline;
 }
