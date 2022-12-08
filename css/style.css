@@ -28,10 +28,18 @@ nav {
 
 .nav--header {
     justify-content: center;
+    font-size: 2rem;
+}
+
+.nav--header a:hover {
+    text-decoration: underline;
+    color:turquoise;
 }
 
 .nav--footer {
     justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
 
 .nav--footer > * {
@@ -56,12 +64,19 @@ nav {
 }
 
 .nav--footer div p {
- color: white;
- text-align: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color:turquoise;
 }
 
 nav ul li a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
@@ -104,6 +119,8 @@ h2 {
     background-color: #133B7D;
     color: white;
     padding: 1%;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 .lighttext {
     background-color: #08BEB9;
@@ -112,6 +129,16 @@ h2 {
     border-radius: 12px;
     padding: 2%;
 }
+
+.lighttext h2 {
+    font-size: 2rem;
+}
+
+.lighttext p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
 .text,.image{
     width: 48%;
 }
@@ -122,6 +149,7 @@ article{
 .img{
     width: 50%;
     border-radius: 12px;
+    height: auto;
 }
 
 h2, 
@@ -134,7 +162,7 @@ p {
 .image {
     display: flex;
     justify-content: center;
-
+    margin: 1%;
 }
 
 .home-bottom {
