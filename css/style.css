@@ -73,7 +73,8 @@ nav ul li a {
     background-image: url(/images/droughtmb2.jpg);
 }
 .hero-gen {
-    background-image: url(/movethistomain/herogenmb2.jpg);
+    background-image: url(/images/pexels-steve-johnson-861414.jpg);
+    background-position: center;
 }
 .hero h1 {
     background-color: rgba(0, 0, 0, 0.5);
