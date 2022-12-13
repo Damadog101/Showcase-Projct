@@ -187,7 +187,6 @@ p {
 .image {
     display: flex;
     justify-content: center;
-    margin: 1%;
 }
 
 .home-bottom {
