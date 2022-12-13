@@ -32,6 +32,8 @@ nav {
 .nav--header {
     justify-content: center;
     font-size: 1.5rem;
+    color: white;
+
 }
 
 .nav--header a:hover {
@@ -75,11 +77,11 @@ footer div {
     display: flex;
     justify-content: center;
 }
-
 footer a:hover {
     text-decoration: underline;
     color:turquoise;
 }
+.nav--header a,
 
 footer a {
     color: white;
