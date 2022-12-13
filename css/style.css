@@ -283,15 +283,17 @@ li p {
     }
 
     .lighttext p {
-        font-size: 3rem;
-        line-height: 3.5rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
     }
     .darktext p {
-        font-size: 3rem;
-        line-height: 3.5rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
         padding: 5px 0px 10px 10px;
     }
-
+    .darktext {
+        padding-top: 7px;
+    }
     .img{
         width: 100%;
         border-radius: 12px;
@@ -299,7 +301,7 @@ li p {
     }
     .lighttext h2,
     .darktext h2 {
-        font-size: 3.5rem;
+        font-size: 4rem;
         padding-bottom: 10px;
     }
     .text,
@@ -313,7 +315,8 @@ li p {
         flex-direction: column-reverse;
     }
     .nav--header {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding: 0px 5px;
     }
     .nav--header ul {
         padding-left: 0px;
@@ -325,7 +328,7 @@ li p {
         display: flex;
         align-items: center;
         background-color:#092D74;
-        font-size: 4rem;
+        font-size: 2rem;
     
     }
     
