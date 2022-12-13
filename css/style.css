@@ -53,14 +53,9 @@ footer {
     display: flex;
     align-items: center;
     background-color:#092D74;
+    flex-wrap: wrap;
 
 }
-
-/* .nav--footer > * {
-    width: 25%;
-    padding: 0;
-    margin: 0;
-} */
 
 
 footer ul {
@@ -81,8 +76,16 @@ footer a:hover {
     text-decoration: underline;
     color:turquoise;
 }
-.nav--header a,
 
+footer div {
+    width: 25%;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav--header a,
 footer a {
     color: white;
     text-decoration: none;
@@ -315,39 +318,38 @@ li p {
     .nav--header ul {
         padding-left: 0px;
     }
-/* 
-    .nav--footer {
+
+
+    footer {
         justify-content: space-around;
         display: flex;
         align-items: center;
-        font-size: 3rem;
+        background-color:#092D74;
+        font-size: 4rem;
+    
     }
     
-    .nav--footer > * {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
     
-    .nav--header ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    .nav--footer ul {
+    footer ul {
         list-style: none;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0px;
     }
     
-    .nav--footer div p {
+    footer div {
+        background-color:#092D74;
+        color: white;
         text-align: center;
         display: flex;
         justify-content: center;
-    } */
-
+    }
+    footer div {
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+    }
+    .sources ul {
+        margin-top: 0px;
+    }
 }
