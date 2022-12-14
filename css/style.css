@@ -165,15 +165,12 @@ h2 {
     width: 48%;
     margin: 0.5%;
 }
+
 article{
     display: flex;
     flex-wrap: wrap;
 }
-.img{
-    width: 60%;
-    border-radius: 12px;
-    height: auto;
-}
+
 
 
 
@@ -184,10 +181,6 @@ p {
 
 
 
-.image {
-    display: flex;
-    justify-content: center;
-}
 
 .home-bottom {
     margin-top: 5px;
@@ -227,26 +220,89 @@ li p {
     border: 3px solid #092D74;
 }
 
+.gardening-img {
+    background-image: url(/images/gardeningTipsImg.jpg);
+}
+.lawn-img {
+    background-image: url(/images/lawnTipsImg.jpg);
+}
+.misc-img {
+    background-image: url(/images/miscTipsImg.jpg);
+}
+.image.awareness-img {
+    background-image: url(/images/awarenessTipsImg.jpg);
+    background-position-y: -180px;
+
+}
+.technical-img {
+    background-image: url(/images/technicalTipsImg.jpg);
+}
+.image.kids-img {
+    background-image: url(/images/kidsTipsImg.jpg);
+    background-position-y: -190px;
+}
+.bathroom-img {
+    background-image: url(/images/bathroomTipsImg.jpg);
+}
+.cleaning-img {
+    background-image: url(/images/cleaningTipsImg.jpg);
+}
+.cooking-img {
+    background-image: url(/images/cookingTipsImg.jpg);
+}
+.dishes-img {
+    background-image: url(/images/dishesTipsImg.jpg);
+}
+.rts1-img {
+    background-image: url(/images/reason-to-save1.PNG);
+}
+.rts2-img {
+    background-image: url(/images/reason-to-save2.PNG);
+}
+.rts3-img {
+    background-image: url(/images/reason-to-save3.PNG);
+}
+
+
+
+.image {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-size: cover;
+}
+
+@media screen and (max-width:1720px) {
+    .image.awareness-img {
+        background-position-y: -50px;
+    }
+    .image.kids-img {
+        background-position-y: -140px;
+    }
+}
+
 @media screen and (max-width:1280px) {
     .hero {
         height:60vh;
        
     }
-
-    /* .lighttext p {
-        font-size: 1.2rem;
-        line-height: 2rem;
-    } */
-
-    .img{
-        width: 45%;
-        border-radius: 12px;
-        height: auto;
+    .image.awareness-img {
+        background-position-y: -50px;
     }
- 
+    .image.kids-img {
+        background-position-y: -110px;
+    }
 }
 
 @media screen and (max-width:1024px) {
+   
+    .image.awareness-img {
+        background-position-y: 0px;
+    }
+    .image.kids-img {
+        background-position-y: 0px;
+    }
     .hero {
         height:40vh;
        
@@ -266,11 +322,7 @@ li p {
     .lighttext h2 {
 
     }
-    .img{
-        width: 90%;
-        border-radius: 12px;
-        height: auto;
-    }
+  
     h2 {
         font-size: 3rem;
     }
@@ -293,11 +345,7 @@ li p {
     .darktext {
         padding-top: 7px;
     }
-    .img{
-        width: 100%;
-        border-radius: 12px;
-        height: auto;
-    }
+    
     .lighttext h2,
     .darktext h2 {
         font-size: 4rem;
@@ -306,6 +354,10 @@ li p {
     .text,
     .image {
         width: 100%;
+    }
+
+    .image {
+        height: 60rem;
     }
 
     .ord {
